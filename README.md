@@ -78,7 +78,7 @@ $ > yarn cdk bootstrap --region us-east-1
 
 ### Configure GitHub Token
 
-Create a [personal access token in GitHub] and store it in AWS.
+Create a [personal access token in GitHub](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) and store it in [AWS SecretsManager](https://aws.amazon.com/secrets-manager/). The token needs permissions to read your (private) repositories and configure webhooks.
 
 ```bash
 $ > aws secretsmanager create-secret \
