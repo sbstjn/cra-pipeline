@@ -1,5 +1,8 @@
 # CRA Pipeline
 
+[![MIT License](https://badgen.now.sh/badge/License/MIT/blue)](https://github.com/sbstjn/cra-pipeline/blob/master/LICENSE.md)
+[![Read Tutorial](https://badgen.now.sh/badge/Read/Tutorial/orange)](https://sbstjn.com/deploy-react-cra-with-cdk-codepipeline-and-codebuild.html)
+
 > Example [AWS CDK](https://docs.aws.amazon.com/cdk/latest/guide/home.html) project to deploy a TypeScript SPA created with [create-react-app](https://github.com/facebook/create-react-app) using [AWS CodePipeline](https://aws.amazon.com/codepipeline/) and [AWS CodeBuild](https://aws.amazon.com/codebuild/). Of course, [styled-components](https://styled-components.com/) is included as well …
 >
 > [http://pipeline-files8e6940b8-tyzn4y41xz9l.s3-website-us-east-1.amazonaws.com](http://pipeline-files8e6940b8-tyzn4y41xz9l.s3-website-us-east-1.amazonaws.com/)
